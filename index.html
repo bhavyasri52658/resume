@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEDAPATNAM BHAVYA SRI - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            border-radius: 8px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+            margin-bottom: 25px;
+        }
+
+        .header-left h1 {
+            margin: 0;
+            color: #2c3e50;
+            font-size: 2.2em;
+        }
+
+        .header-left p {
+            margin: 5px 0;
+            color: #555;
+            font-size: 0.95em;
+        }
+
+        .header-left a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .header-left a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 8px;
+            margin-bottom: 20px;
+            font-size: 1.6em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        ul li::before {
+            content: '•';
+            color: #007bff;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+
+        .project-list li {
+            margin-bottom: 15px;
+        }
+
+        .project-list li strong {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+            color: #444;
+        }
+
+        .certification-list li {
+            margin-bottom: 10px;
+        }
+
+        .contact-info a {
+            color: #03129b;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #777;
+            font-size: 0.85em;
+            margin-top: 30px;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .header-left {
+                margin-bottom: 20px;
+            }
+
+            .profile-photo {
+                margin-top: 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            h2 {
+                font-size: 1.4em;
+            }
+            .profile-photo {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1>PEDAPATNAM BHAVYA SRI</h1>
+                <p>Email: <a href="mailto:pedapatnambhavyasri@gmail.com">pedapatnambhavyasri@gmail.com</a></p>
+                <p>Phone:8019952658</p>
+                <p>Location: Narsapuram, India</p>
+            </div>
+        </header>
+
+        <section id="about-me">
+            <h2>About Me</h2>
+            <p>I am a passionate full-stack developer with a strong interest in building responsive web applications and user-centric solutions.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>Languages:</strong> JavaScript, Python, Java</li>
+                <li><strong>Web:</strong> HTML5, CSS3</li>
+                <li><strong>Databases:</strong>MySQL</li>
+                <li><strong>Tools:</strong>Git,VS code</LI>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li>
+                    <strong>Typing speed-</strong>created a personal typing speed site using HTML,CSS,JS</li>
+                <li>
+                    <strong>Predictive maintenance-</strong> build a model on predictive maintanance of vehicles using machine learning
+                </li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul class="certification-list">
+                <li>AI beginners - hp life</li>
+                <li>Introduction to cyber security - cisco</li>
+            </ul>
+        </section>
+
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Interested to learn courses in free time</li>
+                <li>blogging about technology</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pedapatnambhavyasri@gmail.com" target="_blank">Email:pedapatnambhavyasri@gmail.com</a>
+                <a href="https://github.com/bhavyasri52658" target="_blank">GitHub: github.com/bhavyasri52658</a>
+                <a href="https://www.linkedin.com/in/bhavyasri-pedapatnam-5a69b32b9/" target="_blank">LinkedIn: https://www.linkedin.com/in/bhavyasri-pedapatnam-5a69b32b9/</a>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2025 Bhavya sri Pedaptanam</p>
+        </footer>
+    </div>
+
+</body>
+</html>
